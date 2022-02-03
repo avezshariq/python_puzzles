@@ -10,7 +10,7 @@ num = int(input('Enter a number :'))
 
 num  = str(num)
 length = len(num)
-for char in range(length-1, -1, -1):
+for char in range(length-1, -1, -1): # Writing a loop to access the numbers from last to first
   print(num[char], end='')
 print()
 
