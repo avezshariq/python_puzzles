@@ -9,5 +9,8 @@ print('Example, the user gives - 123456, then the program prints - 654321')
 num = int(input('Enter a number :'))
 
 num  = str(num)
-for char in num:
-  print(char)
+length = len(num)
+for char in range(length-1, -1, -1):
+  print(num[char], end='')
+print()
+
