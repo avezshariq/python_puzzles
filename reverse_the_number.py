@@ -7,4 +7,5 @@
 print('This program takes an input from the user and reverse prints it')
 print('Example, the user gives - 123456, then the program prints - 654321')
 num = int(input('Enter a number :'))
+num  = str(num)
 print(num)
