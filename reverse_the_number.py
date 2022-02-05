@@ -13,5 +13,4 @@ length = len(num)
 
 # Writing a loop to access the numbers from last to first
 for char in range(length-1, -1, -1): # range(start, stop, step)
-  print(num[char], end='') # end='' is used to prevent python from going automatically to the next line
-print() # this is only a courtesy to go to the next line so that the rest of the code can be executed conviniently  
+  print(num[char], end='') 
