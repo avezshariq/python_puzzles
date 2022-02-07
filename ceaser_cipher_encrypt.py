@@ -13,7 +13,8 @@ shift = int(input('Enter an integer between 1 to 25 for shift: '))
 # A = 65
 # z = 122
 # Z = 90
-
+numbers = '0123456789'
+print(numbers)
 for i in message:
     conv = ord(i)
 
@@ -27,6 +28,9 @@ for i in message:
         if conv > 122:
             conv = conv - 26
         print(chr(conv), end='')
-    else: # For everything else like numbers etc..
+    elif i in numbers: # Numbers
+        print(int(i) + shift, end='')
+    else: # For everything else like Special Chars, Symbols etc..
         print(i, end='')
+
 print('') # Courtesy for next lines
