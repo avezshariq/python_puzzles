@@ -1,4 +1,4 @@
-# This program is intentionally made to look very complicated so that the person receiveng the file will not be able to unsderstadn what's going on
+# This program is intentionally made to look very complicated so that the person receiveng the file will not be able to unsderstand what's going on
 # One digit prime numbers
 prime = [1, 2, 3, 5, 7]
 
